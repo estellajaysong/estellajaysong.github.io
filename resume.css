@@ -40,9 +40,14 @@ ul {
   
 #contact {
   width: 230px;
-  padding: 10px;
+  padding: 20px;
   margin-bottom: 15px;
   font-size: 15px;
+  background-color: #ffffff;
+  border-style: dashed;
+  border-width: 1px;
+  border-radius: 5px;
+  border-color:#b8b8b8;
 }
 
 a:hover {
