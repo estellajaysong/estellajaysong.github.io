@@ -12,6 +12,15 @@ h1 {
   font-family: 'Libre Baskerville', serif;
 }
 
+.page {
+  width: 710px;
+  margin: 32px auto;
+  background : white;
+  padding: 48px 64px 64px;
+  box-shadow: 0 10px 20px rgba(0,0,0,0.04), 0 6px 6px rgba(0,0,0,0.06);
+  border-radius: 5px;
+}
+
 #webdev {
   color: #967131;
 }  
@@ -40,6 +49,19 @@ ul {
 .pathName {
   color: #c23d20;
   display: inline;
+}
+
+#path .icon {
+  margin-right: 9px;
+  margin-bottom: -2px;
+}
+
+#path .educationIcon {
+  width:27px; 
+  height:27px;
+  margin-left: -3.5px;
+  margin-right: 7px;
+  margin-bottom: -5px;
 }
   
 #contact {
@@ -98,12 +120,4 @@ a:visited {
   height: 20px;
 }
 
-.page {
-  width: 710px;
-  margin: 32px auto;
-  background : white;
-  padding: 48px 64px;
-  box-shadow: 0 10px 20px rgba(0,0,0,0.04), 0 6px 6px rgba(0,0,0,0.06);
-  border-radius: 5px;
-}
 
