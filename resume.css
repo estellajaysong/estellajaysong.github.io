@@ -2,6 +2,8 @@
 body {
   background: #fcfcfb;
   color: #3c3323;
+    /* background-image: url("tree1.png"); */
+    /* background-repeat: no-repeat; */
   /* font-family: -apple-system,BlinkMacSystemFont,Segoe UI,Helvetica,Arial,sans-serif,Apple Color Emoji,Segoe UI Emoji,Segoe UI Symbol; */
   font-size: 16px;
   line-height: 1.5;
@@ -29,6 +31,15 @@ h1 {
     /* margin-left: -10; */
     display: flex; /* or inline-flex */
     justify-content: space-between;
+}
+
+#projects a {
+  color: #967131;
+  font-size: 15px;
+}
+
+#projects a:hover {
+  color: #967131 !important
 }
 
 .skillType {
