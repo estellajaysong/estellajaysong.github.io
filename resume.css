@@ -8,14 +8,13 @@ body {
   font-family: 'Montserrat', sans-serif;
 }
 
-h1 {
+h1 {  
   font-family: 'Libre Baskerville', serif;
 }
 
-/* #webdev {
-  /* font-family: 'PT Serif', serif; */
-  /* font-size: 25px; */
-/* }  */
+#webdev {
+  color: #967131;
+}  
 
 #skills {
     /* margin-left: -10; */
@@ -41,7 +40,7 @@ ul {
 #contact {
   width: 230px;
   padding: 20px;
-  margin-bottom: 15px;
+  margin-bottom: -10px;
   font-size: 15px;
   background-color: #ffffff;
   border-style: dashed;
@@ -72,7 +71,7 @@ a:hover {
 }
 
 .page {
-  width: 720px;
+  width: 50%;
   margin: 32px auto;
   /* background : white; */
   padding: 48px 64px;
