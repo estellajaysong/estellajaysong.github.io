@@ -3,42 +3,103 @@
 
 <head>
   <!-- Font from Google-->
-  <link href="https://fonts.googleapis.com/css?family=Inconsolata" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css?family=Lobster|Montserrat|Libre+Baskerville:700|Noto+Serif:700|PT+Serif"
+    rel="stylesheet">
   <!-- CSS -->
   <link rel="stylesheet" href="resume.css" type="text/css" />
 </head>
 
 <body>
-  <h1>Estella Song</h1>
-  <h3>Web Developer</h3>
-  <div id="contact">
-    <img class="icon" src="http://www.stickpng.com/assets/images/5a4525cd546ddca7e1fcbc84.png">
-    778-928-7664
-    <br>
-    <img class="icon" src="http://icons.iconarchive.com/icons/iconsmind/outline/256/Email-icon.png">
-    <a class="link" href="mailto:estellajaysong@gmail.com">estellajaysong@gmail.com</a>
-    <br>
-    <img class="icon" src="https://cdn1.iconfinder.com/data/icons/logotypes/32/square-linkedin-512.png">
-    <a class="link" href="https://www.linkedin.com/in/estella-song-b50372a7/">linkedIn</a>
-    <br>
-    <img class="icon" src=" https://upload.wikimedia.org/wikipedia/commons/9/91/Octicons-mark-github.svg">
-    <a class="link" href="https://github.com/estellajaysong">gitHub</a></div>
-  <div id="summary">
-  </div>
-  <div id="skills">
-    <h3>const skills = {</h3>
-      languages: ["JavaScript", "HTML", "CSS"],
-      <br>frameworks & environments: ["Node.js", "Express", "jQuery", "React"],
-      <br>systems & databases: ["SQL", "MongoDB", "Git"]
-      <br><h3>  }</h3>
+  <div class="page">
+    <span>
+      <div style="display: flex">
+        <div style="flex: auto;">
+          <h1 id="name" style="margin-top: 0; margin-bottom: 0;">Estella Song</h1>
+          <h3 id="webdev" style="margin-top: 0">web developer</h3>
+        </div>
+        <div id="contact" style="flex: none">
+          <img class="icon" src="http://www.stickpng.com/assets/images/5a4525cd546ddca7e1fcbc84.png">
+          778-928-7664
+          <br>
+          <img class="icon" src="http://icons.iconarchive.com/icons/iconsmind/outline/256/Email-icon.png">
+          <a class="link" href="mailto:estellajaysong@gmail.com">estellajaysong@gmail.com</a>
+          <br>
+          <img class="icon" src="https://cdn1.iconfinder.com/data/icons/logotypes/32/square-linkedin-512.png">
+          <a class="link" href="https://www.linkedin.com/in/estella-song-b50372a7/">LinkedIn</a>
+          <br>
+          <img class="icon" src=" https://upload.wikimedia.org/wikipedia/commons/9/91/Octicons-mark-github.svg">
+          <a class="link" href="https://github.com/estellajaysong">GitHub</a>
+        </div>
+      </div>
+    </span>
+    <div id="summary">
+      <h1>summary</h1>
+      <p>What started out as a change of scenery turned into a craft of passion. I'm a court reporter turned web
+        developer in pursuit of greater heights and enthralling challenges. Always curious and eager to expand my
+        horizons, I am a relentless problem-solver keen to tackle big problems. Fresh out of bootcamp, where I learned
+        to run before I walked, I'm ready to hit the ground running with the wind in my hair and a big smile on my face.
+      </p>
+      <p>It's important to me that I not only improve the experience of our customers, but also my coworkers, the tech
+        community, and hopefully one day, the world. I've got grit, I value honesty, and I take pride in what I do.</p>
+    </div>
+    <h1>skills</h1>
+    <div id="skills">
+      <div>
+        <div class="skillType">languages</div>
+        <ul>
+          <li>JavaScript</li>
+          <li>Ruby</li>
+          <li>HTML</li>
+          <li>CSS</li>
+        </ul>
+      </div>
+      <div>
+        <div class="skillType">frameworks, libraries, & environments</div>
+          <div style="float: left; width: 50%;">
+              <ul>
+            <li>Node.js</li>
+            <li>React</li>
+            <li>Rails</li>
+            <li>Ajax</li>
+        </ul>
+      </div>
+      <div style="float: right; width: 50%;">
+        <ul>
+          <li>Express</li>
+          <li>Knex</li>
+          <li>EJS</li>
+          <li>JQuery</li>
+        </ul>
+      </div>
+    </div>
+    <div>
+      <div class="skillType">systems, CMS, & databases</div>
+      <ul>
+        <li>SQL</li>
+        <li>MongoDB</li>
+        <li>Git</li>
+      </ul>
+    </div>
   </div>
   <div id="projects">
-      <h3>const projects = {</h3>
-        Mapbook: "a web app that allows users to create and share maps",
-        <br>Tweeter: "a single-page Twitter mock",
-        <br>TinyApp: "a URL-shortening web app"
-        <br><h3>  }</h3>
-    </div>
+    <h1>projects</h1>
+    <div class="projectName">Mapbook</div>
+ <div style="display:inline;float:right;">a web app that allows users to create and share maps</div>
+    <br>
+    <div class="projectName">Tweeter</div>
+    <div style="display:inline;float:right;"> a single-page Twitter mock</div>
+   
+    <br>
+    <div class="projectName">TinyApp</div>
+    <div style="display:inline;float:right;">  a URL-shortening web app</div>
+  </div>
+  </div>
+
+  <div style="margin: 0 auto; text-align: center; padding-bottom: 32px">
+    No trees were harmed in the making of this resume. 🌲
+  </div>
+
+
 </body>
 
 </html>
