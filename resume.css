@@ -1,4 +1,3 @@
-
 body {
   background: #fcfcfb;
   color: #3c3323;
@@ -80,11 +79,6 @@ ul {
   padding: 20px;
   margin-bottom: -10px;
   font-size: 15px;
-  /* background-color: #fff6e3; */
-  /* border-style: dashed; */
-  /* border-width: 1px; */
-  /* border-radius: 5px; */
-  /* border-color:#b8b8b8; */
 }
 
 #contact a {
@@ -118,9 +112,47 @@ a:visited {
   font-size: 45px
 }
 
-#projects {
-  margin-top: -15px;
+#projects a {
+  color: #142cb5;
 }
+
+#projects a:hover {
+  color: #142cb5;
+}
+
+#projects .stack {
+  color:#967131;
+  text-align:right;
+}
+
+#projects .icon {
+
+  margin-right: 7px;
+  margin-bottom: -4.5px;
+
+}
+
+.skillType {
+  color: #c23d20;
+  margin-bottom: -15px;
+}
+
+ul {
+  list-style-type: none;
+  display:inline;
+}
+
+.projectName {  
+  color: #142cb5;
+  display: inline;
+  float: left;
+}
+
+.projectDate {
+  display: inline;
+  float: left;
+}
+
 
 .link {
   text-decoration: none;
@@ -130,5 +162,3 @@ a:visited {
   width: 20px;
   height: 20px;
 }
-
-
