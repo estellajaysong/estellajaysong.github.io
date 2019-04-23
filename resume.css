@@ -37,10 +37,6 @@ h1 {
   font-size: 15px;
 }
 
-#projects a:hover {
-  color: #967131 !important
-}
-
 .skillType {
   color: #c23d20;
   margin-bottom: -15px;
