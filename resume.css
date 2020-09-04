@@ -1,3 +1,8 @@
+html * {
+    box-sizing: border-box;
+}
+
+
 body {
   background: #fcfcfb;
   color: #3c3323;
@@ -157,4 +162,22 @@ ul {
 .icon {
   width: 20px;
   height: 20px;
+}
+
+
+@media (max-width: 640px){
+  body {
+    margin: 0px;
+  }
+
+  .page {
+    width: 100%;
+    height: 100%;
+    margin: 0px;
+    background : white;
+    padding: 20px 20px 20px;
+    padding: none;
+    box-shadow: none;
+    border-radius: none;
+  }
 }
